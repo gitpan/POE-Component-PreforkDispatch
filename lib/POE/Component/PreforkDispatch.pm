@@ -1,6 +1,6 @@
 package POE::Component::PreforkDispatch;
 
-our $VERSION = 0.1;
+our $VERSION = 0.101;
 
 =cut
 
@@ -63,7 +63,7 @@ Applications that require lots of asynchronous tasks going at once may suffer a 
 
 use strict;
 use warnings;
-use POE qw/Wheel::Run Filter::Reference Wheel::ReadLine/;
+use POE qw/Wheel::Run Filter::Reference/;
 use IO::Capture::Stdout;
 use Error qw(:try);
 use Data::Dumper;

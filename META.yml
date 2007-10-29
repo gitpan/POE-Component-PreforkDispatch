@@ -1,6 +1,6 @@
 ---
 name: POE-Component-PreforkDispatch
-version: 0.1
+version: 0.101
 author:
   - 'Eric Waters <ewaters@uarc.com>'
 abstract: Preforking task dispatcher
@@ -15,7 +15,7 @@ requires:
 provides:
   POE::Component::PreforkDispatch:
     file: lib/POE/Component/PreforkDispatch.pm
-    version: 0.1
+    version: 0.101
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
